@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="4"
+            failures="0"
+            tests="1">
+
+  <testsuite name="empMan2"
+    errors="4" failures="0" hostname="" id="" package="empMan2" skipped="0"
+    tests="1" time="10.73" timestamp="">
+  
+    <testcase name="name" classname="empMan2" time="10.73" assertions="0">
+    <error message="An error occurred while running .clearValue() command on &lt;Element [name=@name]&gt;: " type="error"><![CDATA[
+    NoSuchElementError: An error occurred while running .clearValue() command on &lt;Element [name=@name]&gt;: 
+    at ClearValue.noSuchElementError (C:\Users\Karso\AppData\Roaming\npm\node_modules\nightwatch\lib\element\command.js:368:12)
+    at Object.errorHandler (C:\Users\Karso\AppData\Roaming\npm\node_modules\nightwatch\lib\api\element-commands\_baseElementCommand.js:42:30)
+    at PeriodicPromise.runAction (C:\Users\Karso\AppData\Roaming\npm\node_modules\nightwatch\lib\utils\periodic-promise.js:64:29)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+        TypeError: Cannot read property &#39;nombre1&#39; of undefined
+       at Page.file1 (C:\Users\Karso\check3Project\pageObjects\managerV2Objects.js:7:39)
+       at Object.name (C:\Users\Karso\check3Project\tests\empMan2.js:11:6)
+       at processTicksAndRejections (internal/process/task_queues.js:93:5)
+  NoSuchElementError: An error occurred while running .click() command on &lt;Element [name=@newEmpTab]&gt;: 
+   {&#34;sessionId&#34;:&#34;c2ead807ecd69d9a57dca08c56e2d209&#34;,&#34;status&#34;:0,&#34;value&#34;:[]}
+       at processTicksAndRejections (internal/process/task_queues.js:93:5)
+  NoSuchElementError: An error occurred while running .click() command on &lt;Element [name=@addEmployeeBtn]&gt;: 
+   {&#34;sessionId&#34;:&#34;c2ead807ecd69d9a57dca08c56e2d209&#34;,&#34;status&#34;:0,&#34;value&#34;:[]}
+       at processTicksAndRejections (internal/process/task_queues.js:93:5)
+  NoSuchElementError: An error occurred while running .clearValue() command on &lt;Element [name=@name]&gt;: 
+   {&#34;sessionId&#34;:&#34;c2ead807ecd69d9a57dca08c56e2d209&#34;,&#34;status&#34;:0,&#34;value&#34;:[]}
+       at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
